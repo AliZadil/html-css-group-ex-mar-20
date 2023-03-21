@@ -35,3 +35,38 @@ tfoot {
 textarea {
   resize: vertical;
 }
+
+.padded {
+  border: 1px solid tomato;
+  padding: 20px;
+}
+
+.centered-heading {
+  border: 1px dotted tomato;
+  text-align: center;
+}
+
+#list-unordered{
+  padding-left: 40px;
+}
+
+#links a{
+  text-decoration: none;
+  cursor: none;
+}
+
+.blocked{
+  display: block;
+}
+
+.inline-divs{
+  border: 1px solid tomato;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  transform: scale(200%);
+}
+
+#finish-button {
+  transform: scale(200%) rotate(90deg);
+}
